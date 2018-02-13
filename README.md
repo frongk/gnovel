@@ -2,7 +2,7 @@
 For Automatic Generation of Character Maps Using NLP
 
 ## Description and Example Output
-This package (in progress) can be used to analyze a `.mobi` ebook and determine the relationships between characters. 
+This package (in progress) can be used to analyze a `.mobi` ebook and determine the relationships between characters. Below is a sample graph generated from analysis of __Harry Potter and the Philosopher's Stone__ by J.K. Rowling.
 ![Harry Potter 1](https://raw.githubusercontent.com/frongk/gnovel/master/harrypotter_orig/graphs/hp1_int_graph.png)
 
 ## Method
