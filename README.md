@@ -2,7 +2,7 @@
 For Automatic Generation of Character Maps Using NLP
 
 ## Example Output
-
+![Harry Potter 1](https://raw.githubusercontent.com/frongk/gnovel/master/harrypotter_orig/graphs/hp1_int_graph.png)
 ## Usage and Setup
 
 ### Usage
