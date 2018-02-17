@@ -6,7 +6,7 @@ This package (in progress) can be used to analyze a `.mobi` ebook and determine 
 ![Harry Potter 1](https://raw.githubusercontent.com/frongk/gnovel/master/harrypotter_orig/graphs/hp1_int_graph.png)
 
 ## Method
-There are two inputs that are used the script. The ebook in `.mobi` format and a text list of the characters that you want to analyze where each character is separated by a newline character. These scripts will read through the ebook file and find instances in which different characters interact. This is tabulated as probabilities of characters co-appearing. After probabilities are generated, a graph depicting significant relationships is rendered.
+There are two inputs that are used the script. These are the ebook in `.mobi` format and a text list of the characters that you want to analyze where each character is separated by a newline character. These scripts will read through the ebook file and find instances in which different characters interact. This is tabulated as probabilities of characters co-appearing. After probabilities are generated, a graph depicting significant relationships is rendered.
 
 ## Usage and Setup
 ```
