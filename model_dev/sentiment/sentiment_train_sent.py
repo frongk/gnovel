@@ -19,7 +19,7 @@ import pickle as pickle
 output_dir = 'sentiment_save'
 
 # training:
-epochs = 16
+epochs = 8
 batch_size = 64
 
 # vector-space embedding: 
@@ -76,7 +76,7 @@ modelcheckpoint = ModelCheckpoint(filepath=output_dir+"/weights.{epoch:02d}.hdf5
 model.fit(x_train, y_train, batch_size=batch_size, epochs=epochs, verbose=1, validation_data=(x_valid, y_valid), callbacks=[modelcheckpoint])
 
 # Evaluate
-model.load_weights(output_dir+"/weights.01.hdf5")
+model.load_weights(output_dir+"/weights.08.hdf5")
 y_hat = model.predict_proba(x_valid)
 
 pct_auc = roc_auc_score(y_valid, y_hat)*100.0
